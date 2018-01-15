@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Part 2: Theme and Configuration  The default theme is landscape, Initially, I was confused by the two config files. I was concentrating on the site _config.yml, which is right in the folder of the bl">
+<meta name="description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
 <meta name="keywords" content="BLOG,GITHUB,HEXO,NEXT">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Build a blog with Hexo and Github Pages (2)">
+<meta property="og:title" content="Build a Blog with Hexo and Github Pages (2)">
 <meta property="og:url" content="https://chongwng.github.io/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/index.html">
 <meta property="og:site_name" content="Chong Wang">
-<meta property="og:description" content="Part 2: Theme and Configuration  The default theme is landscape, Initially, I was confused by the two config files. I was concentrating on the site _config.yml, which is right in the folder of the bl">
+<meta property="og:description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-15T02:22:25.000Z">
+<meta property="og:updated_time" content="2018-01-15T03:57:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Build a blog with Hexo and Github Pages (2)">
-<meta name="twitter:description" content="Part 2: Theme and Configuration  The default theme is landscape, Initially, I was confused by the two config files. I was concentrating on the site _config.yml, which is right in the folder of the bl">
+<meta name="twitter:title" content="Build a Blog with Hexo and Github Pages (2)">
+<meta name="twitter:description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <title>Build a blog with Hexo and Github Pages (2) | Chong Wang</title>
+  <title>Build a Blog with Hexo and Github Pages (2) | Chong Wang</title>
   
 
 
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Build a blog with Hexo and Github Pages (2)</h1>
+          <h1 class="post-title" itemprop="name headline">Build a Blog with Hexo and Github Pages (2)</h1>
         
 
         <div class="post-meta">
@@ -355,8 +355,10 @@
         <blockquote>
 <pre><code>Part 2: Theme and Configuration
 </code></pre></blockquote>
-<p>The default theme is landscape,</p>
-<p>Initially, I was confused by the two config files. I was concentrating on the site _config.yml, which is right in the folder of the blog.<br>I added menu to the file, but I didn’t work at all.<br>Then I found there was another _config.yml in the next theme<br><a id="more"></a></p>
+<h1 id="Hexo-Theme"><a href="#Hexo-Theme" class="headerlink" title="Hexo Theme"></a>Hexo Theme</h1><p>The default theme is landscape, but there are tons of <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">Hexo Themes</a>.<br>Alternatively, you can choose a theme directly on Github by searching key words <code>Hexo theme</code> and sorting by <code>Most stars</code>.</p>
+<p>I decided to use the theme <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">NexT</a> with the largest number of stars on Github.<br><a id="more"></a></p>
+<h1 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h1><h2 id="Install-NexT-with-git"><a href="#Install-NexT-with-git" class="headerlink" title="Install NexT with git"></a>Install NexT with git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>Initially, I was confused by the two config files. I was concentrating on the site _config.yml, which is right in the folder of the blog.<br>I added menu to the file, but I didn’t work at all.<br>Then I found there was another _config.yml in the next theme</p>
 
       
     </div>
@@ -457,8 +459,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -506,6 +517,22 @@
           
 
           
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/ChongWng" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.linkedin.com/in/chongwng/" target="_blank" title="Linkedin">
+                      
+                        <i class="fa fa-fw fa-globe"></i>Linkedin</a>
+                  </span>
+                
+            </div>
+          
 
           
           
@@ -518,6 +545,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo-Theme"><span class="nav-number">1.</span> <span class="nav-text">Hexo Theme</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NexT"><span class="nav-number">2.</span> <span class="nav-text">NexT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-NexT-with-git"><span class="nav-number">2.1.</span> <span class="nav-text">Install NexT with git</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

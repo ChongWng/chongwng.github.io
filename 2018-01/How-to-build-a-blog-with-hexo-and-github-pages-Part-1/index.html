@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Chong Wang">
 <meta property="og:description" content="Part 1: Installation and Environment Setup  I have been looking for a way to build my own blog and I’ve tried both Chineses (Jianshu, CSDN) and English websites (Wordpress), but all of them didn’t sa">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-15T02:21:09.000Z">
+<meta property="og:updated_time" content="2018-01-15T03:53:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Build a Blog with Hexo and Github Pages (1)">
 <meta name="twitter:description" content="Part 1: Installation and Environment Setup  I have been looking for a way to build my own blog and I’ve tried both Chineses (Jianshu, CSDN) and English websites (Wordpress), but all of them didn’t sa">
@@ -375,7 +375,7 @@
 <h1 id="Setup-your-Git-and-Github"><a href="#Setup-your-Git-and-Github" class="headerlink" title="Setup your Git and Github"></a>Setup your Git and Github</h1><p>Normally we use Git and Github to implement version control. You should register your <a href="https://github.com" target="_blank" rel="noopener">Github</a> account firstly, and then <a href="https://help.github.com/articles/connecting-to-github-with-ssh/" target="_blank" rel="noopener">Connect your local PC to GitHub with SSH</a>. </p>
 <p>Then you can check it by entering <code>$ ssh -T git@github.com</code>.<br>You’ll see the message “Hi ChongWng! You’ve successfully authenticated, but GitHub does not provide shell access.” if you have setup your SSH key correctly.</p>
 <p>You also need to set your username and email.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"chongwng"</span> <span class="comment"># your username </span></span><br><span class="line">$ git config --global user.email <span class="string">"wcssdy@gmail.com"</span> <span class="comment"># your email address</span></span><br></pre></td></tr></table></figure></p>
-<h1 id="Deploy-to-your-Github-Pages"><a href="#Deploy-to-your-Github-Pages" class="headerlink" title="Deploy to your Github Pages"></a>Deploy to your Github Pages</h1><h2 id="Site-config"><a href="#Site-config" class="headerlink" title="Site config"></a>Site config</h2><p>Create a new repository with the name of “your_username.github.io”.<br>Open “_config.yml” in the blog folder, which is the site configuration file.<br>Edit deployment setting at the bottom of the file<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:ChongWng/chongwng.github.io.git <span class="comment"># your username</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<h1 id="Deploy-to-your-Github-Pages"><a href="#Deploy-to-your-Github-Pages" class="headerlink" title="Deploy to your Github Pages"></a>Deploy to your Github Pages</h1><h2 id="Site-config"><a href="#Site-config" class="headerlink" title="Site config"></a>Site config</h2><p>Create a new repository with the name of “your_username.github.io”.<br>Open “_config.yml” in the blog folder, which is the site root configuration file.<br>Edit deployment setting at the bottom of the file<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:ChongWng/chongwng.github.io.git <span class="comment"># your username</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
 <h2 id="Install-Git-plugin"><a href="#Install-Git-plugin" class="headerlink" title="Install Git plugin"></a>Install Git plugin</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <h2 id="Run-your-blog"><a href="#Run-your-blog" class="headerlink" title="Run your blog"></a>Run your blog</h2><p>Enter these commands to clear files and start your blog<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean <span class="comment"># clean database and public files</span></span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
 <p>Hooray! You can now enter your blog address in the browser and run it!</p>
@@ -421,8 +421,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/" rel="prev" title="Build a blog with Hexo and Github Pages (2)">
-                Build a blog with Hexo and Github Pages (2) <i class="fa fa-chevron-right"></i>
+              <a href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/" rel="prev" title="Build a Blog with Hexo and Github Pages (2)">
+                Build a Blog with Hexo and Github Pages (2) <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -532,6 +532,22 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/ChongWng" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.linkedin.com/in/chongwng/" target="_blank" title="Linkedin">
+                      
+                        <i class="fa fa-fw fa-globe"></i>Linkedin</a>
+                  </span>
+                
+            </div>
           
 
           
