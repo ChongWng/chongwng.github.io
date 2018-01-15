@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="I have been looking for a way to build my own blog and note both tech-related articles and life-related thoughts. I’ve tried both Chineses websites (Jianshu, CSDN) and English blog websites like Wordp">
+<meta name="description" content="Part 1: Installation and Environment Setup  I have been looking for a way to build my own blog and I’ve tried both Chineses (Jianshu, CSDN) and English websites (Wordpress), but all of them didn’t sa">
 <meta name="keywords" content="BLOG,GITHUB,HEXO">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Build a blog with Hexo and Github Pages (1) - Installation and Environment Setup">
+<meta property="og:title" content="Build a Blog with Hexo and Github Pages (1)">
 <meta property="og:url" content="https://chongwng.github.io/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-1/index.html">
 <meta property="og:site_name" content="Chong Wang">
-<meta property="og:description" content="I have been looking for a way to build my own blog and note both tech-related articles and life-related thoughts. I’ve tried both Chineses websites (Jianshu, CSDN) and English blog websites like Wordp">
+<meta property="og:description" content="Part 1: Installation and Environment Setup  I have been looking for a way to build my own blog and I’ve tried both Chineses (Jianshu, CSDN) and English websites (Wordpress), but all of them didn’t sa">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-14T10:03:06.000Z">
+<meta property="og:updated_time" content="2018-01-15T02:21:09.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Build a blog with Hexo and Github Pages (1) - Installation and Environment Setup">
-<meta name="twitter:description" content="I have been looking for a way to build my own blog and note both tech-related articles and life-related thoughts. I’ve tried both Chineses websites (Jianshu, CSDN) and English blog websites like Wordp">
+<meta name="twitter:title" content="Build a Blog with Hexo and Github Pages (1)">
+<meta name="twitter:description" content="Part 1: Installation and Environment Setup  I have been looking for a way to build my own blog and I’ve tried both Chineses (Jianshu, CSDN) and English websites (Wordpress), but all of them didn’t sa">
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <title>Build a blog with Hexo and Github Pages (1) - Installation and Environment Setup | Chong Wang</title>
+  <title>Build a Blog with Hexo and Github Pages (1) | Chong Wang</title>
   
 
 
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Build a blog with Hexo and Github Pages (1) - Installation and Environment Setup</h1>
+          <h1 class="post-title" itemprop="name headline">Build a Blog with Hexo and Github Pages (1)</h1>
         
 
         <div class="post-meta">
@@ -328,16 +328,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-1/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -362,23 +352,35 @@
       
 
       
-        <p>I have been looking for a way to build my own blog and note both tech-related articles and life-related thoughts. I’ve tried both Chineses websites (Jianshu, CSDN) and English blog websites like Wordpress, but all of them didn’t satisfy me in some way. An ideal blog website in my mind should be a simple style with fewer ad, and the most important features, supporting user-defined site style and markdown syntax for coding, </p>
-<p>One day when I searched on google for another (maybe the thousandth) time to look for such a website in Chinese, I found this way to use Hexo and Github pages. To my surprise, articles about building such blog websites in  are mostly written in Chinese, and the Hexo theme with the largest number of stars on Github is also writen by a Chinese guy. </p>
-<p>I refered to a couple of Chinese articles to find a way to build my own blog wth my preferable style. I will put those reference links at the end of this article.<br>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+        <blockquote>
+<pre><code>Part 1: Installation and Environment Setup
+</code></pre></blockquote>
+<p>I have been looking for a way to build my own blog and I’ve tried both Chineses (Jianshu, CSDN) and English websites (Wordpress), but all of them didn’t satisfy me in some way. </p>
+<p>Why Hexo is a good solution for me?</p>
+<ol>
+<li>No ads, especially comparing to Wordpress.</li>
+<li>Simple to setup the environment and deploy.</li>
+<li>Free to host togehter with Github pages.</li>
+<li>Supporting user-defined styles. You can choose to use a theme, or design your own customized site style.</li>
+<li>The most important features, supporting markdown syntax for coding, </li>
+</ol>
 <a id="more"></a>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h3><p>You should have npm installed in your PC before the installation of Hexo.<br>More info: <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js Official website</a></p>
-<h3 id="Install-Hexo-1"><a href="#Install-Hexo-1" class="headerlink" title="Install Hexo"></a>Install Hexo</h3><p>I’m using MAC.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-<p>You can check whether Hexo has been installed successfully.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -v</span><br><span class="line"># My info</span><br><span class="line">hexo: 3.4.4</span><br><span class="line">hexo-cli: 1.0.4</span><br><span class="line">os: Darwin 16.7.0 darwin x64</span><br><span class="line">http_parser: 2.7.0</span><br><span class="line">node: 8.9.0</span><br><span class="line">v8: 6.1.534.46</span><br><span class="line">uv: 1.15.0</span><br><span class="line">zlib: 1.2.11</span><br><span class="line">ares: 1.10.1-DEV</span><br><span class="line">modules: 57</span><br><span class="line">nghttp2: 1.25.0</span><br><span class="line">openssl: 1.0.2l</span><br><span class="line">icu: 59.1</span><br><span class="line">unicode: 9.0</span><br><span class="line">cldr: 31.0.1</span><br><span class="line">tz: 2017b</span><br></pre></td></tr></table></figure></p>
-<h3 id="Create-your-blog"><a href="#Create-your-blog" class="headerlink" title="Create your blog"></a>Create your blog</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ cd ~/Documents/  # cd to your target folder</span><br><span class="line">$ hexo init blog  # &quot;blog&quot; is the name of your blog folder</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g # or &quot;hexo generate&quot;</span><br><span class="line">$ hexo s # or &quot;hexo server&quot;</span><br></pre></td></tr></table></figure>
+<h1 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h1><h2 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h2><p>You should have npm installed in your PC before the installation of Hexo.<br><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Download the latest version and install</a></p>
+<h2 id="Install-Hexo-1"><a href="#Install-Hexo-1" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><p>These commands are for Mac users.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<p>You can then check whether Hexo has been installed successfully.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -v</span><br><span class="line"><span class="comment"># My info</span></span><br><span class="line">hexo: 3.4.4</span><br><span class="line">hexo-cli: 1.0.4</span><br><span class="line">os: Darwin 16.7.0 darwin x64</span><br><span class="line">http_parser: 2.7.0</span><br><span class="line">node: 8.9.0</span><br><span class="line">v8: 6.1.534.46</span><br><span class="line">uv: 1.15.0</span><br><span class="line">zlib: 1.2.11</span><br><span class="line">ares: 1.10.1-DEV</span><br><span class="line">modules: 57</span><br><span class="line">nghttp2: 1.25.0</span><br><span class="line">openssl: 1.0.2l</span><br><span class="line">icu: 59.1</span><br><span class="line">unicode: 9.0</span><br><span class="line">cldr: 31.0.1</span><br><span class="line">tz: 2017b</span><br></pre></td></tr></table></figure></p>
+<h2 id="Create-your-blog"><a href="#Create-your-blog" class="headerlink" title="Create your blog"></a>Create your blog</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/Documents/  <span class="comment"># cd to your target folder</span></span><br><span class="line">$ hexo init blog  <span class="comment"># "blog" is the name of your blog folder</span></span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g <span class="comment"># or "hexo generate"</span></span><br><span class="line">$ hexo s <span class="comment"># or "hexo server"</span></span><br></pre></td></tr></table></figure>
 <p>If everything goes well, you can now visit your blog on <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>.</p>
 <p>More info: <a href="https://hexo.io/docs/" target="_blank" rel="noopener">Hexo Docs</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h1 id="Setup-your-Git-and-Github"><a href="#Setup-your-Git-and-Github" class="headerlink" title="Setup your Git and Github"></a>Setup your Git and Github</h1><p>Normally we use Git and Github to implement version control. You should register your <a href="https://github.com" target="_blank" rel="noopener">Github</a> account firstly, and then <a href="https://help.github.com/articles/connecting-to-github-with-ssh/" target="_blank" rel="noopener">Connect your local PC to GitHub with SSH</a>. </p>
+<p>Then you can check it by entering <code>$ ssh -T git@github.com</code>.<br>You’ll see the message “Hi ChongWng! You’ve successfully authenticated, but GitHub does not provide shell access.” if you have setup your SSH key correctly.</p>
+<p>You also need to set your username and email.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"chongwng"</span> <span class="comment"># your username </span></span><br><span class="line">$ git config --global user.email <span class="string">"wcssdy@gmail.com"</span> <span class="comment"># your email address</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="Deploy-to-your-Github-Pages"><a href="#Deploy-to-your-Github-Pages" class="headerlink" title="Deploy to your Github Pages"></a>Deploy to your Github Pages</h1><h2 id="Site-config"><a href="#Site-config" class="headerlink" title="Site config"></a>Site config</h2><p>Create a new repository with the name of “your_username.github.io”.<br>Open “_config.yml” in the blog folder, which is the site configuration file.<br>Edit deployment setting at the bottom of the file<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:ChongWng/chongwng.github.io.git <span class="comment"># your username</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<h2 id="Install-Git-plugin"><a href="#Install-Git-plugin" class="headerlink" title="Install Git plugin"></a>Install Git plugin</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h2 id="Run-your-blog"><a href="#Run-your-blog" class="headerlink" title="Run your blog"></a>Run your blog</h2><p>Enter these commands to clear files and start your blog<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean <span class="comment"># clean database and public files</span></span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
+<p>Hooray! You can now enter your blog address in the browser and run it!</p>
+<h1 id="Common-Hexo-commands"><a href="#Common-Hexo-commands" class="headerlink" title="Common Hexo commands"></a>Common Hexo commands</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s --debug <span class="comment"># enter debug mode to edit or config</span></span><br><span class="line">$ hexo new post blog-title</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/commands.html" target="_blank" rel="noopener">Hexo Commands</a></p>
 
       
     </div>
@@ -419,8 +421,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/" rel="prev" title="Build a blog with Hexo and Github Pages (2) - Theme and Configuration">
-                Build a blog with Hexo and Github Pages (2) - Theme and Configuration <i class="fa fa-chevron-right"></i>
+              <a href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/" rel="prev" title="Build a blog with Hexo and Github Pages (2)">
+                Build a blog with Hexo and Github Pages (2) <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -449,13 +451,6 @@
 
 
           
-
-  
-    <div class="comments" id="comments">
-      <div class="ds-thread" data-thread-key="2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-1/"
-           data-title="Build a blog with Hexo and Github Pages (1) - Installation and Environment Setup" data-url="https://chongwng.github.io/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-1/">
-      </div>
-    </div>
 
   
 
@@ -505,7 +500,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -527,7 +522,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -560,7 +555,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Hexo"><span class="nav-number">1.</span> <span class="nav-text">Install Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Node-js"><span class="nav-number">1.1.</span> <span class="nav-text">Install Node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Hexo-1"><span class="nav-number">1.2.</span> <span class="nav-text">Install Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-your-blog"><span class="nav-number">1.3.</span> <span class="nav-text">Create your blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.4.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.5.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.6.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Install-Hexo"><span class="nav-number">1.</span> <span class="nav-text">Install Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Node-js"><span class="nav-number">1.1.</span> <span class="nav-text">Install Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Hexo-1"><span class="nav-number">1.2.</span> <span class="nav-text">Install Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-your-blog"><span class="nav-number">1.3.</span> <span class="nav-text">Create your blog</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Setup-your-Git-and-Github"><span class="nav-number">2.</span> <span class="nav-text">Setup your Git and Github</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Deploy-to-your-Github-Pages"><span class="nav-number">3.</span> <span class="nav-text">Deploy to your Github Pages</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Site-config"><span class="nav-number">3.1.</span> <span class="nav-text">Site config</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Git-plugin"><span class="nav-number">3.2.</span> <span class="nav-text">Install Git plugin</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-your-blog"><span class="nav-number">3.3.</span> <span class="nav-text">Run your blog</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Common-Hexo-commands"><span class="nav-number">4.</span> <span class="nav-text">Common Hexo commands</span></a></li></ol></div>
             
 
           </div>
@@ -720,35 +715,25 @@
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"your-duoshuo-shortname"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
 
   
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
+
+
+
+
+	
+
+
+
+
+
   
 
 
 
 
 
-
+  
 
 
 
