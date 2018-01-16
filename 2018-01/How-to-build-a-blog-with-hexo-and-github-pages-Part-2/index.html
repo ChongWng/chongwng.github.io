@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Chong Wang">
 <meta property="og:description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-15T03:57:04.000Z">
+<meta property="og:updated_time" content="2018-01-15T23:14:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Build a Blog with Hexo and Github Pages (2)">
 <meta name="twitter:description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
@@ -131,6 +131,15 @@
 
 
 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-112466745-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
 
 
@@ -358,7 +367,8 @@
 <h1 id="Hexo-Theme"><a href="#Hexo-Theme" class="headerlink" title="Hexo Theme"></a>Hexo Theme</h1><p>The default theme is landscape, but there are tons of <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">Hexo Themes</a>.<br>Alternatively, you can choose a theme directly on Github by searching key words <code>Hexo theme</code> and sorting by <code>Most stars</code>.</p>
 <p>I decided to use the theme <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">NexT</a> with the largest number of stars on Github.<br><a id="more"></a></p>
 <h1 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h1><h2 id="Install-NexT-with-git"><a href="#Install-NexT-with-git" class="headerlink" title="Install NexT with git"></a>Install NexT with git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p>Initially, I was confused by the two config files. I was concentrating on the site _config.yml, which is right in the folder of the blog.<br>I added menu to the file, but I didn’t work at all.<br>Then I found there was another _config.yml in the next theme</p>
+<p>There are two <code>_config.yml</code> in the blog folder. <code>blog/_config.yml</code> is the site config, <code>theme\netx\_config.yml</code> is the theme NexT config. Be sure not to mess them up.<br>Refer to <a href="https://hexo.io/docs/configuration.html" target="_blank" rel="noopener">Hexo Docs Configuration</a> to finish your site config.</p>
+<p>I made changes to the URL format as I pasted my config below. The definition of the variables can be found at <a href="definiation">Hexo Permalinks</a>.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line">url: https://chongwng.github.io</span><br><span class="line">root: /</span><br><span class="line">permalink: :year-:month/:title/ <span class="comment"># I made changes here</span></span><br><span class="line">permalink_defaults:</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -484,7 +494,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -522,13 +532,13 @@
                   <span class="links-of-author-item">
                     <a href="https://github.com/ChongWng" target="_blank" title="GitHub">
                       
-                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
                   </span>
                 
                   <span class="links-of-author-item">
                     <a href="https://www.linkedin.com/in/chongwng/" target="_blank" title="Linkedin">
                       
-                        <i class="fa fa-fw fa-globe"></i>Linkedin</a>
+                        <i class="fa fa-fw fa-linkedin"></i>Linkedin</a>
                   </span>
                 
             </div>
