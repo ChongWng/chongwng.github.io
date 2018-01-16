@@ -79,18 +79,20 @@
 
 
 
-<meta name="description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
+<meta name="description" content="Part 2: Theme and Configuration  Hexo themesThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo them">
 <meta name="keywords" content="BLOG,GITHUB,HEXO,NEXT">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Build a Blog with Hexo and Github Pages (2)">
 <meta property="og:url" content="https://chongwng.github.io/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/index.html">
 <meta property="og:site_name" content="Chong Wang">
-<meta property="og:description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
+<meta property="og:description" content="Part 2: Theme and Configuration  Hexo themesThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo them">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-15T23:14:44.000Z">
+<meta property="og:image" content="http://i67.tinypic.com/10y3mrs.png">
+<meta property="og:updated_time" content="2018-01-16T10:18:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Build a Blog with Hexo and Github Pages (2)">
-<meta name="twitter:description" content="Part 2: Theme and Configuration  Hexo ThemeThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo theme">
+<meta name="twitter:description" content="Part 2: Theme and Configuration  Hexo themesThe default theme is landscape, but there are tons of Hexo Themes.Alternatively, you can choose a theme directly on Github by searching key words Hexo them">
+<meta name="twitter:image" content="http://i67.tinypic.com/10y3mrs.png">
 
 
 
@@ -220,16 +222,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            About
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -277,7 +269,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chong Wang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="http://wx3.sinaimg.cn/mw690/566b8bb2gy1fnij96kegkj20qo0qob29.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -364,8 +356,10 @@
         <blockquote>
 <pre><code>Part 2: Theme and Configuration
 </code></pre></blockquote>
-<h1 id="Hexo-Theme"><a href="#Hexo-Theme" class="headerlink" title="Hexo Theme"></a>Hexo Theme</h1><p>The default theme is landscape, but there are tons of <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">Hexo Themes</a>.<br>Alternatively, you can choose a theme directly on Github by searching key words <code>Hexo theme</code> and sorting by <code>Most stars</code>.</p>
-<p>I decided to use the theme <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">NexT</a> with the largest number of stars on Github.<br><a id="more"></a></p>
+<h1 id="Hexo-themes"><a href="#Hexo-themes" class="headerlink" title="Hexo themes"></a>Hexo themes</h1><p>The default theme is landscape, but there are tons of <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">Hexo Themes</a>.<br>Alternatively, you can choose a theme directly on Github by searching key words <code>Hexo theme</code> and sorting by <code>Most stars</code>.</p>
+<p><img src="http://i67.tinypic.com/10y3mrs.png" alt="Hexo Themes"></p>
+<a id="more"></a>
+<p>I decided to use the theme <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">NexT</a> with the largest number of stars on Github.</p>
 <h1 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h1><h2 id="Install-NexT-with-git"><a href="#Install-NexT-with-git" class="headerlink" title="Install NexT with git"></a>Install NexT with git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 <p>There are two <code>_config.yml</code> in the blog folder. <code>blog/_config.yml</code> is the site config, <code>theme\netx\_config.yml</code> is the theme NexT config. Be sure not to mess them up.<br>Refer to <a href="https://hexo.io/docs/configuration.html" target="_blank" rel="noopener">Hexo Docs Configuration</a> to finish your site config.</p>
 <p>I made changes to the URL format as I pasted my config below. The definition of the variables can be found at <a href="definiation">Hexo Permalinks</a>.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line">url: https://chongwng.github.io</span><br><span class="line">root: /</span><br><span class="line">permalink: :year-:month/:title/ <span class="comment"># I made changes here</span></span><br><span class="line">permalink_defaults:</span><br></pre></td></tr></table></figure></p>
@@ -483,6 +477,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="http://wx3.sinaimg.cn/mw690/566b8bb2gy1fnij96kegkj20qo0qob29.jpg"
+                alt="Chong Wang" />
+            
               <p class="site-author-name" itemprop="name">Chong Wang</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
@@ -516,7 +514,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -539,6 +537,18 @@
                     <a href="https://www.linkedin.com/in/chongwng/" target="_blank" title="Linkedin">
                       
                         <i class="fa fa-fw fa-linkedin"></i>Linkedin</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:wcssdy@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://wx1.sinaimg.cn/mw690/566b8bb2gy1fnik5org92j209l0cuadq.jpg" target="_blank" title="Wechat">
+                      
+                        <i class="fa fa-fw fa-weixin"></i>Wechat</a>
                   </span>
                 
             </div>
@@ -565,7 +575,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo-Theme"><span class="nav-number">1.</span> <span class="nav-text">Hexo Theme</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NexT"><span class="nav-number">2.</span> <span class="nav-text">NexT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-NexT-with-git"><span class="nav-number">2.1.</span> <span class="nav-text">Install NexT with git</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo-themes"><span class="nav-number">1.</span> <span class="nav-text">Hexo themes</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NexT"><span class="nav-number">2.</span> <span class="nav-text">NexT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-NexT-with-git"><span class="nav-number">2.1.</span> <span class="nav-text">Install NexT with git</span></a></li></ol></li></ol></div>
             
 
           </div>
