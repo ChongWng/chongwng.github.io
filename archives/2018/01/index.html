@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="en">
+<html class="theme-next pisces use-motion" lang="default">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -77,13 +77,16 @@
 
 
 
+  <meta property="fb:admins" content="<100007947589200>" />
+  <meta property="fb:app_id" content="<1608962442515003>" />
+
 
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chong Wang">
 <meta property="og:url" content="https://chongwng.github.io/archives/2018/01/index.html">
 <meta property="og:site_name" content="Chong Wang">
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chong Wang">
 
@@ -123,6 +126,24 @@
 
   <title>Archive | Chong Wang</title>
   
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '<1608962442515003>',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/default/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 
 
 
@@ -142,7 +163,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
 
   
   
@@ -356,7 +377,7 @@
         
             <a class="post-title-link" href="/2018-01/Responsive-or-adaptive-design/" itemprop="url">
               
-                <span itemprop="name">Responsive or Adaptive Design</span>
+                <span itemprop="name">Responsive vs Adaptive Design</span>
               
             </a>
         
@@ -528,7 +549,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -615,19 +636,7 @@
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
-    <span class="site-uv">
-      <i class="fa fa-user"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
-    </span>
-  
 
-  
-    <span class="site-pv">
-      <i class="fa fa-eye"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      
-    </span>
   
 </div>
 
@@ -746,14 +755,6 @@
 
   
 
-    
-      <script id="dsq-count-scr" src="https://chongwng.disqus.com/count.js" async></script>
-    
-
-    
-
-  
-
 
 
 
@@ -766,6 +767,10 @@
   
 
 
+
+
+
+  
 
 
 
