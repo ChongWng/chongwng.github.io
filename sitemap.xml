@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chongwng.github.io/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/</loc>
+    
+    <lastmod>2018-01-17T02:50:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chongwng.github.io/2018-01/CSS-Selector/</loc>
     
-    <lastmod>2018-01-16T21:34:35.000Z</lastmod>
+    <lastmod>2018-01-16T23:29:52.000Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>https://chongwng.github.io/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-3/</loc>
     
     <lastmod>2018-01-16T10:24:25.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chongwng.github.io/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/</loc>
-    
-    <lastmod>2018-01-16T10:18:36.000Z</lastmod>
     
   </url>
   
