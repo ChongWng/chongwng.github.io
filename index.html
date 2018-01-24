@@ -98,7 +98,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -187,7 +187,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Thoughts about web development</p>
+        <h1 class="site-subtitle" itemprop="description">Thoughts about web development</h1>
       
   </div>
 
@@ -296,9 +296,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018-01/CSS-Selector/" itemprop="url">Play with CSS Selector</a></h1>
+                <a class="post-title-link" href="/2018-01/CSS-Selector/" itemprop="url">Play with CSS Selector</a></h2>
         
 
         <div class="post-meta">
@@ -448,9 +448,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-3/" itemprop="url">Build a Blog with Hexo and Github Pages (3)</a></h1>
+                <a class="post-title-link" href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-3/" itemprop="url">Build a Blog with Hexo and Github Pages (3)</a></h2>
         
 
         <div class="post-meta">
@@ -536,7 +536,7 @@
           <blockquote>
 <pre><code>Part 3: Errors when customizing the theme
 </code></pre></blockquote>
-<p>This early morning I was adding social links, google analytics and site map to my blog. After I edited the two config files, I made a <code>hexo clean</code>. Then I can’t generate the static web pages any more! There were only <code>.md</code> files and <code>.styl</code> files in the public folders without being converted to <code>.html</code> and <code>.css</code> files.</p>
+<p>Early this morning I was adding social links, google analytics and site map to my blog. After I edited the two config files, I made a <code>hexo clean</code>. Then I can’t generate the static web pages any more! There were only <code>.md</code> files and <code>.styl</code> files in the public folders without being converted to <code>.html</code> and <code>.css</code> files.</p>
 <p>Then I spent the whole morning to solve this problem!<br>
           <!--noindex-->
           <div class="post-button text-center">
@@ -608,9 +608,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018-01/Responsive-or-adaptive-design/" itemprop="url">Responsive vs Adaptive Design</a></h1>
+                <a class="post-title-link" href="/2018-01/Responsive-or-adaptive-design/" itemprop="url">Responsive vs Adaptive Design</a></h2>
         
 
         <div class="post-meta">
@@ -764,9 +764,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/" itemprop="url">Build a Blog with Hexo and Github Pages (2)</a></h1>
+                <a class="post-title-link" href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-2/" itemprop="url">Build a Blog with Hexo and Github Pages (2)</a></h2>
         
 
         <div class="post-meta">
@@ -924,9 +924,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-1/" itemprop="url">Build a Blog with Hexo and Github Pages (1)</a></h1>
+                <a class="post-title-link" href="/2018-01/How-to-build-a-blog-with-hexo-and-github-pages-Part-1/" itemprop="url">Build a Blog with Hexo and Github Pages (1)</a></h2>
         
 
         <div class="post-meta">
@@ -1102,6 +1102,7 @@
                 alt="Chong Wang" />
             
               <p class="site-author-name" itemprop="name">Chong Wang</p>
+              <p class="site-author-address"><i class="fa fa-map-marker " aria-hidden="true"></i>&nbsp;Auckland, NZ</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -1221,7 +1222,19 @@
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
 
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
   
 </div>
 
@@ -1239,6 +1252,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     

@@ -98,7 +98,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -186,7 +186,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Thoughts about web development</p>
+        <h1 class="site-subtitle" itemprop="description">Thoughts about web development</h1>
       
   </div>
 
@@ -271,8 +271,8 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>WEB DESIGN<small>Tag</small>
-        </h1>
+        <h2>WEB DESIGN<small>Tag</small>
+        </h2>
       </div>
 
       
@@ -281,7 +281,7 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
             <a class="post-title-link" href="/2018-01/Responsive-or-adaptive-design/" itemprop="url">
               
@@ -289,7 +289,7 @@
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
@@ -349,6 +349,7 @@
                 alt="Chong Wang" />
             
               <p class="site-author-name" itemprop="name">Chong Wang</p>
+              <p class="site-author-address"><i class="fa fa-map-marker " aria-hidden="true"></i>&nbsp;Auckland, NZ</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -468,7 +469,19 @@
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
 
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
   
 </div>
 
@@ -486,6 +499,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
