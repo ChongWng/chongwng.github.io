@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chongwng.github.io/2018-03/getting-started-with-wpf(1)/</loc>
+    
+    <lastmod>2018-03-22T02:56:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chongwng.github.io/2018-01/Responsive-or-adaptive-design/</loc>
+    
+    <lastmod>2018-03-21T22:41:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chongwng.github.io/2018-02/professional-javascript-3rd-edition-1/</loc>
     
-    <lastmod>2018-02-12T00:01:01.000Z</lastmod>
+    <lastmod>2018-02-15T02:36:46.000Z</lastmod>
     
   </url>
   
@@ -19,13 +33,6 @@
     <loc>https://chongwng.github.io/2018-01/symfony/</loc>
     
     <lastmod>2018-01-29T23:48:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chongwng.github.io/2018-01/Responsive-or-adaptive-design/</loc>
-    
-    <lastmod>2018-01-24T23:21:58.000Z</lastmod>
     
   </url>
   
